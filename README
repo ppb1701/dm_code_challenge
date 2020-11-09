@@ -1,0 +1,32 @@
+The purpose of the application is to read in three files, each seperated by a different delimeter (',', ' ', '|').
+These files contain a list of persons with their attributes and should be imported and then return a formatted string
+in three different sorts.
+
+Output 1 - sorted by gender (females before males) then by last name ascending
+Output 2 - sorted by birth date, ascending then by last name ascending
+Output 3 - sorted by last name, descending
+
+The info should display in the following order: last name, first name, gender, date of birth, favorite color.
+Display dates in the format M/D/YYYY.
+
+GEMS
+
+The unit tests use the 'test-unit' and 'rake' gems and are bundled in the gemfile.  If you do not have it installed:
+From the command line, go to the project folder and run the following:
+bundle install
+Or if you are in RubyMine, you should get a prompt to install the bundle.
+
+NOTE: The GEMFILE was bundled with version 2.1.4.   If you are using an earlier version you may need to update bundler
+gem install bundler
+
+
+Running the application
+
+From the command line, go to the project folder and run the following:
+ruby lib/main.rb
+
+
+Running the unit tests
+
+From the command line, go to the project folder and run the following:
+rake
